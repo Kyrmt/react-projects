@@ -1,18 +1,69 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(35, 35, 36);
+    color: rgb(3, 3, 3);
+    font-family: monospace;
+}
+
 .container {
     align-items: center;
     justify-content: center;
-    text-align: center;
     width: 30%; 
-    height: 140px;
+    height: 170px;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 20px;
     box-sizing: border-box;
-    margin: 20px auto; /* Auto margin horizontally centers the container */
-    box-shadow: 3px 3px #b9b9b9;
+    margin: 10px auto;
+    box-shadow: 3px 3px 3px rgb(225, 213, 213);
+    background-color: white;
 }
 
 .teamname {
-    font-weight: bolder;
-    font-size: 15px;
+    font-size: 14px;
 }
+.score{
+    height: 50px;
+    width: 60px;
+    background-color: rgb(255, 1, 1);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-family: 'monospace';
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+    margin-left: 30px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+
+
+}
+
+.btns button{
+    background: none;
+    border: none;
+    background-color: rgb(220, 220, 220);
+    font-size: 16px;
+
+}
+
+.rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.rate button{
+    cursor: pointer;
+}
+
